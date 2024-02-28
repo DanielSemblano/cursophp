@@ -6,6 +6,6 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form></form>
+    <h1>Formulario 2.0</h1>
 </body>
 </html>
