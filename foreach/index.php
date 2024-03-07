@@ -21,5 +21,14 @@ echo "<hr>";
 // echo "</pre>";
 
 foreach ($clientes as $key => $value) {
-    echo  $key . " - " . $value["name"] . " - " . $value["email"] . "<br>";
+    echo  $key + 1 . " - " . $value["name"] . " - " . $value["email"] . "<br>";
+}
+
+echo "<hr>";
+
+foreach ($clientes as  $cliente) {
+    foreach ($cliente as $chave => $valor) {
+        echo $chave . " - " . $valor . "<br>";
+    }
+    echo "<br>";
 }
