@@ -1,5 +1,9 @@
 <?php
 
-function helloWord() { echo "Olá mundo!"; }
+function helloWord() { 
+    return "Olá mundo!"; 
+}
 
-helloWord();
+$mensagem = helloWord();
+
+echo "<h1>" . $mensagem . "</h1>";
