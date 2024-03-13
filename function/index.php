@@ -6,4 +6,4 @@ function helloWord() {
 
 $mensagem = helloWord();
 
-echo "<h1>" . $mensagem . "</h1>";
+echo "<h1 style='color:red'>" . $mensagem . "</h1>";
